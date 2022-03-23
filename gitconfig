@@ -1,0 +1,7 @@
+user.email=joaoetchichury@hotmail.com
+user.name=etchichury
+alias.co=checkout
+alias.ci=commit
+alias.unstage=reset HEAD --
+alias.oneline=log --oneline
+alias.discard=checkout --
