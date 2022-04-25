@@ -10,3 +10,8 @@ bindkey '^ ' autosuggest-accept
 bindkey '^e' autosuggest-execute
 
 source $ZSH/oh-my-zsh.sh
+
+alias config="nano ~/.zshrc"
+alias clias="nano ~/.oh-my-zsh/alias.zsh"
+alias src="source ~/.zshrc"
+alias ls="exa -abhl --group-directories-first"
