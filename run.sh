@@ -8,3 +8,4 @@ source .zshrc
 
 ./gitconfig.sh
 gh auth login
+
