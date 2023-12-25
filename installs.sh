@@ -2,7 +2,6 @@ sudo apt install -y bat
 					build-essential \
 					dconf-editor \
 					exa \
-					fonts-firacode \
 					htop \
 					neofetch \
 					software-properties-common \
