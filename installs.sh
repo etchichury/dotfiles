@@ -1,7 +1,15 @@
-sudo apt install -y build-essential \
+sudo apt install -y bat
+					build-essential \
 					dconf-editor \
-					xclip fonts-firacode zsh neofetch exa tshark \
-software-properties-common htop bat
+					exa \
+					fonts-firacode \
+					htop \
+					neofetch \
+					software-properties-common \
+					tshark \
+					xclip \
+					zsh \
+
 sudo add-apt-repository ppa:deadsnakes/ppa
 
 sudo apt update
