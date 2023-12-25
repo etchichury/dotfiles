@@ -1,20 +1,14 @@
-sudo apt install -y dconf-editor
-sudo apt install -y xclip
-sudo apt install -y fonts-firacode
-sudo apt install -y snapd
-sudo apt install -y zsh
-sudo apt install -y neofetch
-sudo apt install -y exa
-sudo apt install -y tshark
-sudo apt-get install software-properties-common
-sudo apt install build-essential
+sudo apt install -y build-essential \
+					dconf-editor \
+					xclip fonts-firacode zsh neofetch exa tshark \
+software-properties-common htop bat
 sudo add-apt-repository ppa:deadsnakes/ppa
+
 sudo apt update
+
 chsh -s $(which zsh)
 
 sudo snap install --classic code
-sudo snap install chromium
-sudo snap install htop
 sudo snap install spotify
 sudo snap install postman
 
