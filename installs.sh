@@ -1,5 +1,5 @@
 sudo apt install -y bat \
-					exa \
+					eza \
 					htop \
 					tshark \
 					xclip \
