@@ -1,15 +1,9 @@
-sudo apt install -y bat
-					build-essential \
-					dconf-editor \
+sudo apt install -y bat \
 					exa \
 					htop \
-					neofetch \
-					software-properties-common \
 					tshark \
 					xclip \
-					zsh \
-
-sudo add-apt-repository ppa:deadsnakes/ppa
+					zsh
 
 sudo apt update
 
