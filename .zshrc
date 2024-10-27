@@ -9,6 +9,9 @@ plugins=(asdf zsh-autosuggestions zsh-syntax-highlighting)
 bindkey '^ ' autosuggest-accept
 bindkey '^e' autosuggest-execute
 
+GPG_TTY=$(tty)
+export GPG_TTY
+
 source $ZSH/oh-my-zsh.sh
 
 alias config="nano ~/.zshrc"
