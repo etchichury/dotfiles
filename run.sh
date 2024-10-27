@@ -7,5 +7,3 @@ cat .zshrc > ~/.zshrc
 source .zshrc
 
 ./gitconfig.sh
-gh auth login
-
