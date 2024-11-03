@@ -52,6 +52,9 @@ vim.o.guicursor = "n-v-c-sm-i-ci-ve:block-Cursor,r-cr-o:hor20"
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 12
 
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
@@ -307,6 +310,7 @@ require("lazy").setup({
 				clangd = {},
 				eslint_d = {},
 				gopls = {},
+				goimports = {},
 				lua_ls = {
 					settings = {
 						Lua = {
@@ -354,7 +358,7 @@ require("lazy").setup({
 			},
 		},
 		opts = {
-			notify_on_error = false,
+			notify_on_error = true,
 			format_on_save = function(bufnr)
 				local disable_filetypes = { cpp = true }
 				local lsp_format_opt
@@ -369,6 +373,7 @@ require("lazy").setup({
 				}
 			end,
 			formatters_by_ft = {
+				go = { "goimports" },
 				lua = { "stylua" },
 				javascript = { "prettierd" },
 				typescript = { "prettierd" },
